@@ -1,4 +1,1 @@
-Laravel SampleExample
-user
-tours 
-statistics
+sampleExample
