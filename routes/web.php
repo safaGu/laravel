@@ -15,8 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('user', 'UserController@getUsers');
-Route::get('statistictours', 'UserController@getStatisticTours');
-//Route::put('user/{id}', 'UserController@updateUserName');
-Route::get('user/{id}/{name}', 'UserController@updateUserName');
-Route::put('user/{id}/{name}', 'UserController@updateUserName');
+
