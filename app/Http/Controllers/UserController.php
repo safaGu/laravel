@@ -119,6 +119,10 @@ public function updateUserName($id, $name)
 		$type="agent";
 	}
 	else $type="visitor";
+	
+	/* to check
+	$type=($user->user_types_id==1)?"agent":"visitor";
+	*/
     $array["type"] = $type;
 	return json_encode([$array]);
 
